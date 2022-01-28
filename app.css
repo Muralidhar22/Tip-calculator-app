@@ -59,8 +59,8 @@ main{
     font-weight: 700;
     opacity: .6;
 }
-.element-style{
-    border: 2px solid var(--strong-cyan);
+.margin-bottom{
+    margin-bottom: .5em;
 }
 /* input button styling */
 input,
@@ -96,7 +96,7 @@ p{
 
 .input-container{
     flex-direction: column;
-    gap:1em;
+    gap:2em;
 }
 .noOfPeople{
     margin-top:auto;
@@ -144,7 +144,13 @@ p{
     padding: .5em;
     border-radius: var(--box-br);
 }
-
+.button-active{
+    background-color: #26c0ab;
+}
+.button-percent-formatter:hover{
+    background-color: #c5e4e7;
+    color: #00494d;
+}
 .custom-percent{
     border-radius: var(--box-br);
 } 
@@ -201,6 +207,9 @@ label{
     padding: 0.6em;
     font-weight: 700;
     
+}
+.reset-button:hover{
+    background-color: #48ead4;
 }
 .reset-btn-mute{
     opacity: .2;
